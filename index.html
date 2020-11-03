@@ -3,9 +3,38 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
+  <title>Latitude</title>
 
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+<!-- This is a dropdown menu-->
+<body>
+
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#">Latitude</a>
+          </li>
+          <li>
+                <select id="nav-select">
+                    <option value="plot1">Plot 1</option>
+                    <option value="plot2">Plot 2</option>
+                    <option value="plot3">Plot 3</option>
+                    <option value="plot4">Plot 4</option>
+                </select>
+          </li>
+          <li>
+            <a href="#">Data Page</a>
+          </li>
+          <li>
+            <a href="#">Comparison</a>
+          </li>
+        </ul>
+       
+        <div class="clearfix"></div>
+      </nav>
